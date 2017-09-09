@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 
 cap = cv2.VideoCapture(0)
-print(dir(cv2))
 while(True):
     # Capture frame-by-frame
     ret, frame = cap.read()
